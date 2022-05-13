@@ -4,24 +4,29 @@ h1 {
   text-align: center;
   }
 .tab {
-   border-color: brown;
+  color: rgba(122, 36, 235, 0.63);
+  font-family: monospace;
 
+}
+.titulito {
+ color: darkslateblue;
+ background-color:rgba(154, 39, 199, 0.486);
 }
 .dias {
-    empty-cells: hide;
-    border-collapse: separate; border-spacing: 50px 10px;
-    background-color: rgb(12, 204, 204);
-    font-style: oblique;
-    
+  color:rgb(154, 69, 211) ;
+  background-color: rgba(130, 7, 230, 0.171);
 }
 .numeros {
-    empty-cells: hide;
-    background-color: aquamarine;
-    font-style: oblique;
-    
-
-
+    color:rgb(154, 69, 211) ;
+  background-color: rgba(130, 7, 230, 0.171);
 }
-
+.hora {
+    color:rgb(154, 69, 211) ;
+    background-color: rgba(130, 7, 230, 0.171); 
+}
+.conteo {
+    color:rgb(154, 69, 211) ;
+    background-color: rgba(130, 7, 230, 0.171);
+}
 
 
