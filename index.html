@@ -8,57 +8,68 @@
     <title>Proyecto.Html</title>
 </head>
 <body>
-    <u><h1>Proyecto con html</h1></u>
-    <h2 class="tab">Jugando con Tablas</h2>
-        <br><br>
-        <table border="2" style="width: 120%; letter-spacing: 1px;">
-        <tr class="titulito">            
-            <th>Mi tabla</th>
-        </tr>
-       <tr class="dias">
-           <th>Lunes</th>
-           <th>Martes</th>
-           <th>Miercoles</th>
-           <th>Jueves</th>
-           <th>Viernes</th>
-           <th>Sabado</th>
-           <th>Domingo</th>
-       </tr>
-       <tr class="numeros"> 
-           <td>one</td>
-           <td>two</td>
-           <td>three</td>
-           <td>four</td>
-           <td>five</td>
-           <td>six</td>
-           <td>seven</td>
-      </tr> 
-      <tr class="hora">
-        <td>milesimas</td>
-        <td>sentesimas</td>
-        <td>segundos</td>
-        <td>minutos</td>
-        <td>horas</td>
-        <td>dias</td>
-        <td>meses</td>  
-      </tr>
-      <tr class="conteo">
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>  
-      </tr>
-    </table>
-    <p>
-        Estoy tratando de crear una tabla que se vea bonita
-    </p>
+  <u><h1>Proyecto con html</h1></u>
+  <br><br>
+  <table border="1" style="margin: auto; width: 1400px; letter-spacing: 1px;">
+    <tr class="titulito">            
+        <th colspan="10" class="ancho">Mi tabla</th>
+    </tr>
+    <tr class="dias">
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miercoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+      <th>Sabado</th>
+      <th>Domingo</th>
+    </tr>
+    <tr class="numeros"> 
+      <td>one</td>
+      <td>two</td>
+      <td>three</td>
+      <td>four</td>
+      <td>five</td>
+      <td>six</td>
+      <td>seven</td>
+    </tr> 
+    <tr class="hora">
+      <td>milesimas</td>
+      <td>sentesimas</td>
+      <td>segundos</td>
+      <td>minutos</td>
+      <td>horas</td>
+      <td>dias</td>
+      <td>meses</td>  
+    </tr>
+    <tr class="conteo">
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>  
+    </tr>
+  </table>
+
+  <div id="contForm">
+    <form id="formEnvio" action="">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="" placeholder="Tu Nombre">
+      <br>
+      <label for="">Telefono</label>
+      <input type="number" name="telefono" id="" placeholder="Tu Celular/Telefono">
+      <br>
+      <label for="">Correo eléctronico</label>
+      <input type="text" name="email" id=""><br>
+      <button type="submit">Enviar Datos</button>
+    </form>
+  </div>
+
+
+  <p>Estoy tratando de crear una tabla que se vea bonita</p>
   <footer>
-      <span>&copy; Copyright</span>
-    
-    </footer>
-    
+    <span>&copy; Copyright</span>    
+  </footer>    
 </body>
 </html>

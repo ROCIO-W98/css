@@ -1,32 +1,79 @@
 h1 {
-    margin: top 3px;
-    font-family:monospace;
+  margin: top 3px;
+  font-family:monospace;
   text-align: center;
-  }
+}
+table {
+  border-color: rgba(100, 35, 125, 0.695);
+  border-collapse: collapse;
+  width: 900px;
+}
+table th, table td {
+  padding: 10px;
+  font-size: 18px;
+}
 .tab {
   color: rgba(122, 36, 235, 0.63);
   font-family: monospace;
+}
 
-}
 .titulito {
- color: darkslateblue;
- background-color:rgba(154, 39, 199, 0.486);
+  color: darkslateblue;
+  background-color:rgba(154, 39, 199, 0.486);
 }
+
 .dias {
+  color:rgb(90, 32, 128) ;
+  background-color: rgba(130, 7, 230, 0.253);
+}
+.dias th {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.numeros {
   color:rgb(154, 69, 211) ;
   background-color: rgba(130, 7, 230, 0.171);
 }
-.numeros {
-    color:rgb(154, 69, 211) ;
-  background-color: rgba(130, 7, 230, 0.171);
+.ancho{
+  font-weight: bolder;
+  font-size: 24px;
+  color: #000;
 }
 .hora {
-    color:rgb(154, 69, 211) ;
-    background-color: rgba(130, 7, 230, 0.171); 
+  color:rgb(154, 69, 211) ;
+  background-color: rgba(130, 7, 230, 0.171); 
 }
+
 .conteo {
-    color:rgb(154, 69, 211) ;
-    background-color: rgba(130, 7, 230, 0.171);
+  color:rgb(154, 69, 211) ;
+  background-color: rgba(130, 7, 230, 0.171);
 }
 
 
+/*Formulario*/
+
+#contForm{
+  border: 1px solid rgba(100, 35, 125, 0.695);  
+  border-top: 0;
+  width: 1400px;
+  margin: auto;
+  background-color: rgba(130, 7, 230, 0.171);
+}
+
+#contForm form {
+  padding: 30px;
+}
+
+#contForm form input{
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
+#contForm form button{
+ background-color:rgba(210, 133, 244, 0.911);
+ margin-top: 35px;
+ margin-left: 190px;
+ border: none;
+ color: white;
+ padding: 15px 20px;
+}
